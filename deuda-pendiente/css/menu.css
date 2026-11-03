@@ -1,0 +1,152 @@
+/* ===== Página: Menú principal (menu.html) ===== */
+/* ===== Base y fondo ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: #ddd;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+  background-color: #000;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url("../img/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* ===== Encabezado y pie ===== */
+header {
+  text-align: center;
+  padding: 30px 15px 10px;
+  text-shadow: 0 2px 6px #000;
+}
+
+header h1 {
+  margin: 0;
+  letter-spacing: 4px;
+  color: #fff;
+}
+
+header p {
+  margin: 5px 0 0;
+  color: #bbb;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #888;
+  font-size: 14px;
+}
+
+/* ===== Contenido ===== */
+main {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.caja {
+  background-color: rgba(10, 10, 10, 0.82);
+  border: 1px solid #3a3a3a;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 0;
+  color: #fff;
+}
+
+a {
+  color: #e66;
+}
+
+button {
+  margin-top: 16px;
+  padding: 10px 20px;
+  background-color: #8b1a1a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #a52222;
+}
+
+/* ===== Mensajes ===== */
+.mensaje {
+  min-height: 22px;
+}
+
+.error {
+  color: #ff6b6b;
+}
+
+.ok {
+  color: #6bd66b;
+}
+
+/* ===== Pantallas grandes: la caja va sobre la pared oscura (izquierda) ===== */
+@media (min-width: 900px) {
+  header {
+    text-align: left;
+    padding-left: 6vw;
+  }
+
+  main {
+    margin-left: calc(6vw - 15px);
+  }
+
+  footer {
+    text-align: left;
+    padding-left: 6vw;
+  }
+}
+
+/* ===== Menú principal ===== */
+h3 {
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+.frase {
+  font-style: italic;
+  color: #e04848;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.secundario {
+  background-color: #444;
+  margin-top: 0;
+}
+
+.secundario:hover {
+  background-color: #555;
+}
+
+/* ===== Botón que lleva al manual (enlace con aspecto de botón) ===== */
+.boton {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 10px 20px;
+  background-color: #8b1a1a;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.boton:hover {
+  background-color: #a52222;
+}

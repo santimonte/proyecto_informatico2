@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deuda Pendiente - Registro</title>
+  <link rel="stylesheet" href="css/registro.css">
+</head>
+<body>
+
+  <header>
+    <h1>DEUDA PENDIENTE</h1>
+    <p>Novela visual de suspenso y terror psicológico</p>
+  </header>
+
+  <main>
+    <section class="caja">
+      <h2>Crear cuenta</h2>
+
+      <form id="formRegistro">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre">
+
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido">
+
+        <label for="nombreUsuario">Nombre de usuario</label>
+        <input type="text" id="nombreUsuario" name="nombreUsuario">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email">
+
+        <label for="contrasena">Contraseña</label>
+        <input type="password" id="contrasena" name="contrasena">
+
+        <label for="contrasena2">Repetir contraseña</label>
+        <input type="password" id="contrasena2" name="contrasena2">
+
+        <button type="submit">Registrarme</button>
+      </form>
+
+      <p id="mensaje" class="mensaje"></p>
+      <p>¿Ya tenés cuenta? <a href="index.html">Ingresá</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>E.T. N°32 "Gral. José De San Martín"</p>
+  </footer>
+
+  <script src="js/registro.js"></script>
+</body>
+</html>

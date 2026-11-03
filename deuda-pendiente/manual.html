@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deuda Pendiente - Cómo abrir el juego</title>
+  <link rel="stylesheet" href="css/manual.css">
+</head>
+<body>
+
+  <header>
+    <h1>DEUDA PENDIENTE</h1>
+    <p>Cómo abrir el juego</p>
+  </header>
+
+  <main>
+    <section class="caja">
+      <h2>Antes de empezar</h2>
+      <p>
+        "Deuda Pendiente" está hecho en <strong>Java</strong>, por eso no se
+        instala como un programa común: se abre como proyecto desde un editor
+        de código y se ejecuta desde ahí. Para seguir estos pasos tenés que
+        haber descargado el juego desde el menú principal. El archivo se llama
+        <strong>DeudaPendiente.zip</strong> y se guarda en la carpeta de
+        descargas de tu computadora.
+      </p>
+    </section>
+
+    <section class="caja">
+      <h2>Programas necesarios</h2>
+      <p>Instalalos una sola vez, en este orden:</p>
+      <ol>
+        <li>
+          <strong>JDK (Java Development Kit).</strong>
+          Es lo que permite ejecutar Java. Se recomienda la versión 17 o una más nueva.
+          Descargalo desde <a href="https://adoptium.net" target="_blank">adoptium.net</a>
+          y seguí el instalador.
+        </li>
+        <li>
+          <strong>Visual Studio Code.</strong>
+          Es el editor donde se abre el juego. Descargalo desde
+          <a href="https://code.visualstudio.com" target="_blank">code.visualstudio.com</a>.
+        </li>
+        <li>
+          <strong>Extension Pack for Java.</strong>
+          Dentro de VS Code, abrí el panel de extensiones (<code>Ctrl + Shift + X</code>),
+          buscá <em>Extension Pack for Java</em> (de Microsoft) y presioná "Instalar".
+        </li>
+      </ol>
+    </section>
+
+    <section class="caja">
+      <h2>Pasos para abrir el juego</h2>
+      <ol>
+        <li>
+          <strong>Buscá el archivo descargado.</strong>
+          Abrí la carpeta "Descargas" y ubicá <em>DeudaPendiente.zip</em>.
+        </li>
+        <li>
+          <strong>Extraé el contenido.</strong>
+          Hacé clic derecho sobre el archivo y elegí "Extraer todo...".
+          Después elegí una carpeta y presioná "Extraer". No abras el
+          proyecto desde dentro del .zip: tiene que estar extraído.
+        </li>
+        <li>
+          <strong>Abrí Visual Studio Code.</strong>
+        </li>
+        <li>
+          <strong>Abrí la carpeta del juego.</strong>
+          En el menú superior elegí <code>Archivo &gt; Abrir carpeta...</code>,
+          seleccioná la carpeta que extrajiste y presioná "Seleccionar carpeta".
+          Si VS Code pregunta si confiás en los autores, elegí "Sí, confío".
+        </li>
+        <li>
+          <strong>Esperá a que cargue Java.</strong>
+          La primera vez puede tardar un momento. Cuando termine, en la barra
+          de abajo vas a ver el ícono de Java listo (sin el símbolo de carga).
+        </li>
+        <li>
+          <strong>Abrí el archivo principal.</strong>
+          En el panel de la izquierda (Explorador), buscá y abrí el archivo
+          <code>.java</code> que contiene el método <code>main</code>. Ese es
+          el archivo que inicia el juego.
+        </li>
+        <li>
+          <strong>Ejecutá el juego.</strong>
+          Presioná el botón <code>&#9654; Run</code> que aparece arriba a la
+          derecha del editor, o el texto "Run" que aparece sobre el método
+          <code>main</code>. También podés usar <code>Ctrl + F5</code>.
+        </li>
+        <li>
+          <strong>Jugá.</strong>
+          Se abre el juego en una ventana nueva y vas a ver la pantalla principal.
+        </li>
+      </ol>
+    </section>
+
+    <section class="caja">
+      <h2>Menú del juego</h2>
+      <ul>
+        <li><strong>Comenzar:</strong> inicia una partida nueva. Primero ingresás tu nombre y elegís tu género.</li>
+        <li><strong>Cargar partida:</strong> continúa una partida guardada.</li>
+        <li><strong>Ajustes:</strong> cambia la velocidad del texto y el modo de pantalla (ventana o pantalla completa).</li>
+        <li><strong>Salir:</strong> cierra el juego.</li>
+      </ul>
+      <p>
+        Recordá guardar tu partida antes de salir para no perder el progreso.
+      </p>
+    </section>
+
+    <section class="caja">
+      <h2>Si algo no funciona</h2>
+      <ul>
+        <li><strong>No aparece el botón Run:</strong> verificá que instalaste Extension Pack for Java y esperá a que termine de cargar. Si sigue sin aparecer, cerrá y volvé a abrir VS Code.</li>
+        <li><strong>Dice que no encuentra Java o el JDK:</strong> instalá el JDK y reiniciá VS Code.</li>
+        <li><strong>Error de versión de Java:</strong> instalá un JDK más nuevo (17 o superior).</li>
+        <li><strong>Aparecen errores en rojo al abrir la carpeta:</strong> asegurate de haber abierto la carpeta correcta, la que contiene todo el proyecto, y que esté extraída del .zip.</li>
+        <li><strong>La descarga no terminó bien:</strong> volvé a descargar el juego desde el menú principal.</li>
+        <li><strong>El juego no carga:</strong> cerralo y volvé a ejecutarlo desde VS Code.</li>
+      </ul>
+    </section>
+
+    <section class="caja">
+      <a class="boton" href="menu.html">Volver al menú</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>E.T. N°32 "Gral. José De San Martín"</p>
+  </footer>
+
+</body>
+</html>
