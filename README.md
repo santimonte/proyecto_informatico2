@@ -1,6 +1,7 @@
 # Proyecto informatico 2
 
-Intregrantes: Santiago Montenegro
+Intregrantes: 
+              Santiago Montenegro
               
               Matias Adan
 
